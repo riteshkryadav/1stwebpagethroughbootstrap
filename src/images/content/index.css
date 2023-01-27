@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.bg-image {
+    font-size: 5rem;
+    width: 45%;
+}
+
+.stats-illus {
+  width: 45rem;
+  padding-left: 50px;
+}
+
+.happy-clients-text,
+.projects-completed-text,
+.awards-win-text,
+.years-in-bussiness-text {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  width: 20rem;
+  position: relative;
+  margin: 50px;
+  justify-content: space-around;
+}
+
+.happy-clients-logo,
+.awards-win-logo {
+  position: absolute;
+  left: 70%;
+  bottom: 70%;
+}
+
+.projects-completed-logo {
+  position: absolute;
+  right: 85%;
+  bottom: 70%;
+}
+.years-in-bussiness-logo {
+  position: absolute;
+  left: 75%;
+  top: 60%;
+}
+
+.happy-clients-text {
+  left: 25%;
+  padding: 40px 20px;
+  top: 10%;
+  background: #fff;
+}
+
+.projects-completed-text {
+  padding: 40px 10px;
+  background: #fff;
+}
+
+.awards-win-text {
+  left: 20%;
+  padding: 40px 20px;
+  bottom: 10%;
+  background: #fff;
+}
+
+.years-in-bussiness-text {
+  padding: 40px 10px;
+  padding-left: 8px;
+  bottom: 20%;
+  background: #fff;
+}
+
+.box {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  color: #667299;
+}
+
+.box hr {
+  background-color:  #fd7e14;
+  width: 0.5em;
+  outline: none;
+  border: none;
+  margin: 3px;
+  opacity: 1;
+}
+
+.number {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 45px;
+}
